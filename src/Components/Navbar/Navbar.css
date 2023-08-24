@@ -1,0 +1,15 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.Navbar a {
+    text-decoration: none;
+}

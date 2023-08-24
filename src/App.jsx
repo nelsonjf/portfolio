@@ -7,10 +7,9 @@ import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-      <div><Navbar /></div>
-      <div><Hero /></div>
+    <div className="App" id='home'>
+      <div id='navbar'><Navbar /></div>
+      <div id='hero'><Hero /></div>
       <div id='about'><About /></div>
       <div id='skills'><Skills /></div>
       <div id='projects'><Projects /></div>
